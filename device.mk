@@ -29,7 +29,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.qcom.ramdisk
+    fstab.qcom.ramdisk \
+    init.oplus.hw.rc \
+    init.oplus.hw.recovery.rc
 
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
