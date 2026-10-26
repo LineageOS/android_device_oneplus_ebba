@@ -10,17 +10,17 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/oneplus/sm8250-common',
+    'vendor/oneplus/sm7250-common',
 ]
 
 module = ExtractUtilsModule(
-    'kebab',
+    'ebba',
     'oneplus',
     namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8250-common', module.vendor
+        module, 'sm7250-common', module.vendor
     )
     utils.run()
