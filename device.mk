@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm7250-common/common.mk)
 
