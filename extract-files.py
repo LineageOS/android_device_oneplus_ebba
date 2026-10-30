@@ -73,7 +73,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('(NXP_NFC_DEV_NODE=.*)pn553', '\\1nq-nci')
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=0x01', 'NFC_DEBUG_ENABLED=0x00'),
-    'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
+    'vendor/lib64/hw/com.qti.chi.override.bitra.so': blob_fixup()
         .add_needed('libcamera_metadata_shim.so')
         .binary_regex_replace(b'com.oem.autotest', b'\x00om.oem.autotest'),
     ('vendor/lib64/libarcsoft_hta.so', 'vendor/lib64/libarcsoft_superportrait.so', 'vendor/lib64/libarcsoft_hdrplus_hvx_stub.so', 'vendor/lib64/libarcsoft_mfsr_frt.so', 'vendor/lib64/libarcsoft_dualcam_refocus_preview.so', 'vendor/lib64/libarcsoft_dualcam_refocus_preview_ir.so'): blob_fixup()
