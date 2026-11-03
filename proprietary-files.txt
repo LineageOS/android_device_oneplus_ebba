@@ -235,6 +235,9 @@ odm/etc/nfc/libnfc-nci.conf_20813:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/libnfc-nxp.conf_20813:vendor/etc/libnfc-nxp.conf
 odm/lib/libpn553_fw.so:vendor/lib64/libpn553_fw.so
 
+# Sensors
+vendor/lib64/sensors.ssc.so|864c8fa187fea8b0c3f85d4e5993e1fdabb8d17f|c5eb899d112f714bac36f6964770b2f364f902bf
+
 # Touchscreen firmware
 odm/firmware/tp/20813/FW_FT3518_SAMSUNG.img
 odm/firmware/tp/20813/FW_FT3518_SAMSUNG_FAE.img
