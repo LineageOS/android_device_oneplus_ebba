@@ -32,5 +32,8 @@ BOARD_SUPER_PARTITION_SIZE := 10200547328
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
+# Security
+VENDOR_SECURITY_PATCH := 2026-01-01
+
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/ebba/BoardConfigVendor.mk
